@@ -12,7 +12,14 @@ public class Child extends Main{
     }
 
     public Child(int number, String name, String naam) {
-        super(number, name);  //super keyword invoke parent class constructor
+        super(number, name);
+        System.out.println(super.sname);
+                                                            //super keyword invoke parent class constructor
         this.naam = naam;
+    }
+
+    public Child (Child obj) {
+        super(obj);
+        naam = obj.naam;
     }
 }

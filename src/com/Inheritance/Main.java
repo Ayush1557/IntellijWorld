@@ -7,6 +7,7 @@ public class Main {
     }
     int number;
     String name;
+    String sname = "operator";
 
     public Main(int number, String name) {
         this.number = number;
