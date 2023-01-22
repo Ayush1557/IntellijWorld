@@ -12,8 +12,8 @@ public class show {
         Child obj3 = new Child(ob2);
         System.out.println(obj3.sname +  " " + obj3.name  + " " + obj3.naam + " " + obj3.number);
 
-//        Main ob3 = new Child(123, "ayush", "shashank");
-//        System.out.println(ob3.name + " " + ob3.number);
+        Main ob3 = new Child(123, "ayush", "shashank");
+        System.out.println(ob3.name + " " + ob3.number);
 
         //NOTE THAT
 //        there are many variables in both parent and child classes
